@@ -64,7 +64,7 @@ export const Footer = () => {
           <Col lg={3} md={6} className={`${styles.footerColumn} mb-4 mb-lg-0`}>
             <div className="d-flex align-items-center">
               <Image
-                src="/images/footer/hs-footer-logo.svg"
+                src="/images/Footer/hs-footer-logo.svg"
                 alt="Hipotecario Seguros Logo"
                 width={200}
                 height={64}
@@ -99,7 +99,7 @@ export const Footer = () => {
               {column.showQr && (
                 <div className={styles.qrCodeWrapper}>
                    <Image
-                    src="/images/footer/pdp.webp"
+                    src="/images/Footer/pdp.webp"
                     alt="PDP Logo"
                     width={60}  
                     height={24} 
@@ -107,8 +107,8 @@ export const Footer = () => {
                   />
                   
                   <div className={styles.qrCodesRow}>
-                    <Image src="/images/footer/qr1.jpg" alt="Data Fiscal QR Code" width={60} height={60} className={styles.qrCode} />
-                    <Image src="/images/footer/qr2.jpg" alt="Data Fiscal QR Code" width={60} height={60} className={styles.qrCode} />
+                    <Image src="/images/Footer/qr1.jpg" alt="Data Fiscal QR Code" width={60} height={60} className={styles.qrCode} />
+                    <Image src="/images/Footer/qr2.jpg" alt="Data Fiscal QR Code" width={60} height={60} className={styles.qrCode} />
                   </div>
                 </div>
               )}

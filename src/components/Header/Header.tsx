@@ -9,12 +9,12 @@ import { faUser, faChevronRight, faChevronDown } from '@fortawesome/free-solid-s
 import styles from './Header.module.css';
 
 const productsData = [
-  { href: '/hogar', iconSrc: '/images/header/house.svg', title: 'Hogar', subtitle: 'Es más que una casa, es tu casa.' },
-  { href: '/salud', iconSrc: '/images/header/umbrella.svg', title: 'Salud', subtitle: 'Respaldá tu economía ante un imprevisto de salud.' },
+  { href: '/hogar', iconSrc: '/images/Header/house.svg', title: 'Hogar', subtitle: 'Es más que una casa, es tu casa.' },
+  { href: '/salud', iconSrc: '/images/Header/umbrella.svg', title: 'Salud', subtitle: 'Respaldá tu economía ante un imprevisto de salud.' },
   { href: '/accidentes', iconSrc: '/images/header/injured.svg', title: 'Accidentes personales', subtitle: 'La vida es una sola, no te pierdas de nada.' },
-  { href: '/bienes', iconSrc: '/images/header/phone.svg', title: 'Bienes móviles', subtitle: 'Las cosas están para usarlas.' },
-  { href: '/movilidad', iconSrc: '/images/header/bike.svg', title: 'Movilidad', subtitle: 'Viajá seguro a toda hora.' },
-  { href: '/caucion', iconSrc: '/images/header/keys.svg', title: 'Caución', subtitle: 'Inquilino tranquilo y propietario seguro.' },
+  { href: '/bienes', iconSrc: '/images/Header/phone.svg', title: 'Bienes móviles', subtitle: 'Las cosas están para usarlas.' },
+  { href: '/movilidad', iconSrc: '/images/Header/bike.svg', title: 'Movilidad', subtitle: 'Viajá seguro a toda hora.' },
+  { href: '/caucion', iconSrc: '/images/Header/keys.svg', title: 'Caución', subtitle: 'Inquilino tranquilo y propietario seguro.' },
 ];
 
 export const Header = () => {
