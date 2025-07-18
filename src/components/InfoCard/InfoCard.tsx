@@ -21,7 +21,7 @@ export const InfoCard = ({ iconSrc, title, textLines, backgroundColor, textColor
           width={178}
           height={50}
           className="img-fluid"
-          layout="responsive"
+          fill
         />
 
       </div>
