@@ -1,0 +1,114 @@
+.footer {
+  background-color: #2a4b7c;
+  color: white;
+  padding: 4rem 0;
+  font-size: 0.9rem;
+}
+
+.footerColumn {
+  padding: 1rem;
+}
+
+.logoText {
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-left: 0.75rem;
+}
+
+.contactSectionTitle {
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactPhone {
+  color: #68d2e0; 
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contactHours {
+  opacity: 0.8;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  font-size: 25px; 
+}
+.socialLink {
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+.socialLink:hover {
+  color: #68d2e0; 
+}
+
+.copyright {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.columnTitle {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+
+  
+  position: relative;
+  
+  padding-right: 1.5rem; 
+}
+
+.columnTitle::after {
+  content: ''; 
+  display: block;
+  position: absolute;
+  top: 50%; 
+  right: 0; 
+  width: 2px; 
+  height: 100%; 
+  background-color: #68d2e0; 
+
+  transform: translateY(-50%); 
+}
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkList li {
+  margin-bottom: 0.75rem;
+}
+
+.footerLink {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footerLink:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.qrCodeWrapper {
+  margin-top: 1.5rem;
+}
+
+
+
+.qrCodesRow {
+  display: flex;
+  gap: 0.5rem; 
+}
+
+
+.pdpLogo {
+  margin-bottom: 1rem;
+}
