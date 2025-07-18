@@ -1,0 +1,55 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.infoCard {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  color: white;
+  min-height: 200px;
+  width: 100%; 
+}
+
+.iconWrapper {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cardText {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+@media (min-width: 992px) {
+  .infoCard {
+    width: calc(50% - 1rem);
+    max-width: 600px;
+  }
+
+  .iconWrapper {
+    width: 90px;
+    height: 90px;
+  }
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+  .cardText {
+    font-size: 0.9rem;
+  }
+}
