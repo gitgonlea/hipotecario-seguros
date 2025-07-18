@@ -1,0 +1,183 @@
+.logoContainer {
+  max-width: 250px;
+}
+
+.mobileMenuOverlay {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-color: white;
+  z-index: 1025;
+  overflow-y: auto;
+  padding-bottom: 4rem;
+}
+
+.mobileNavContainer {
+  padding-top: 1rem;
+  width: 70%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobileAccordionItem {
+  border: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #e0e0ee;
+}
+
+.mobileAccordionBody {
+  padding: 0.5rem 0 0.5rem 1.5rem !important;
+  background-color: #f8f9fa;
+}
+
+.mobileSubLink {
+  display: block;
+  padding: 0.7rem 0;
+  color: #2a4b7c;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.mobileSubLink:hover {
+  text-decoration: underline;
+}
+
+.mobileNavLink {
+  color: #2a4b7c !important;
+  font-weight: 600;
+  padding: 1.25rem 1rem !important;
+  border-bottom: 1px solid #e0e0ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.mobileActionButtons {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 992px) {
+
+  .mobileMenuOverlay {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    overflow-y: visible;
+    padding-bottom: 0;
+  }
+  .logoContainer {
+    max-width: 300px;
+  }
+  
+.navLink {
+    font-size: 12px;
+    font-weight: 500; 
+    color: var(--brand-text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  .navLink:hover {
+    color: var(--brand-teal);
+  }
+  
+  .productsDropdownWrapper {
+    position: relative;
+  }
+
+.productsDropdownToggle {
+    background-color: var(--brand-teal) !important;
+    color: white !important;
+    font-weight: 700;
+    font-size: 0.9rem !important;
+    
+    padding: 1.75rem 1.25rem !important;
+    border-radius: 0 0 1rem 1rem !important;
+    
+    border: none !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    align-self: stretch;
+  }
+  .productsDropdownToggle:hover {
+    background-color: #0094a9 !important;
+  }
+  
+  .megaMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--brand-teal);
+    border: none;
+    border-radius: 0 1rem 1rem 1rem;
+    padding: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+  }
+  
+  .productsDropdownWrapper:hover .megaMenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .megaMenu::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--brand-teal);
+  }
+
+  .menuItem {
+    display: flex !important;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .menuItem:last-child {
+    border-bottom: none;
+  }
+  .menuItem:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0.5rem;
+  }
+  .menuItemTextWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuItemTitle {
+    color: white;
+    font-weight: 600;
+  }
+  .menuItemSubtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+  }
+  .desktopButton {
+    padding: 0.35rem 1.1rem !important;
+    font-size: 0.8rem !important;
+  }
+}
