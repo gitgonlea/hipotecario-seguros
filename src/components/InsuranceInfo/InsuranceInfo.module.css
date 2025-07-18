@@ -1,0 +1,68 @@
+.itemWrapper {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto 0.75rem auto;
+}
+
+.mainTitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #2a4b7c;
+  text-align: center;
+}
+.subTitle {
+  font-size: 1.1rem;
+  color: #555;
+  text-align: center;
+  margin: 1rem 0 2.5rem; 
+  white-space: nowrap; 
+}
+
+.accordionItem {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.buttonContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.customButton {
+  background-color: #2a4b7c;
+  color: white;
+  border-radius: 50px;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionTitle { font-weight: 600; }
+.toggleText { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; }
+
+.accordionBody {
+  padding: 2rem 1.5rem !important;
+}
+.contentItem { margin-bottom: 1.5rem; }
+.contentItem:last-child { margin-bottom: 0; }
+.contentTitle { font-weight: 700; color: #2a4b7c; font-size: 1.1rem; margin-bottom: 0.25rem; }
+.contentDescription { color: #555; font-size: 1rem; line-height: 1.6; }
+
+.bulletList {
+  list-style-type: disc;
+  color: #555; 
+  padding-left: 1.5rem; 
+  margin-top: 1rem; 
+}
+
+.bulletList li {
+  margin-bottom: 0.5rem; 
+  padding-left: 0.25rem; 
+}
