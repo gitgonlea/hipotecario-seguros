@@ -18,10 +18,9 @@ export const InfoCard = ({ iconSrc, title, textLines, backgroundColor, textColor
         <Image
           src={iconSrc}
           alt={`Icon for ${title}`}
-          width={178}
-          height={50}
           className="img-fluid"
           fill
+          sizes="(max-width: 768px) 78px, 90px"
         />
 
       </div>
