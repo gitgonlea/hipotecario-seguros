@@ -18,7 +18,6 @@ export const Propositions = () => {
             "¿Quién te cuida?"
           ]}
         />
-
         <InfoCard
           backgroundColor="#a8dce5"
           textColor="#2a4b7c"
