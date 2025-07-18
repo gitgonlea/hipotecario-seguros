@@ -186,20 +186,15 @@ const faqData: FaqItemData[] = [
   },
 ];
 
-// --- THIS IS THE FIX ---
-// Define a type alias that matches the possible values from react-bootstrap's onSelect.
 type AccordionSelectKey = string | string[] | null | undefined;
-// --- END OF FIX ---
 
 export const Faq = () => {
   const [activeKey, setActiveKey] = useState<string | null>(null);
 
-  // Use our new, specific type here instead of `any` to fix the ESLint error.
   const handleSelect = (key: AccordionSelectKey) => {
     if (typeof key === 'string') {
       setActiveKey(key === activeKey ? null : key);
     } else {
-      // Handles null, undefined, or string[] (for multi-select) by closing the accordion.
       setActiveKey(null);
     }
   };
