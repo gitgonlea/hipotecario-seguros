@@ -1,0 +1,288 @@
+
+.mainHeading {
+  color: rgb(4, 80, 118);
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.subHeading {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  color: rgb(4, 80, 118);
+  font-weight: 600;
+}
+
+.protectionPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--si-teal);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.pricingCard {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  height: 100%;
+
+}
+.pricingCardWrapper {
+  width: 100%;
+  max-width: 380px; 
+}
+.contentWrapper {
+  width: 100%;
+}
+
+.cardTopBanner {
+  background-color: var(--si-teal);
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 1.50rem;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.priceSection {
+   background-color: var(--price-card-int);
+  color: white;
+  padding: 1rem 0.5rem;
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+  position: relative;
+  top: -1rem;
+  text-align: center;
+}
+.priceSign {
+    font-size: 24px;
+    vertical-align: super; 
+}
+.priceAmount {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pricePer {
+  font-size: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.pricePerDay {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+.idealBanner {
+  background-color: var(--si-teal);
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 10px;
+  font-size: 18px;
+  margin-top: -1rem;
+}
+
+.featuresList {
+  padding: 1.5rem 1.5rem; 
+  list-style: none;
+  margin: 0;
+}
+
+.featuresList li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--si-text-gray);
+}
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: var(--si-text-gray);
+  font-size: 16px; 
+}
+
+.featureItem span {
+  color: #204f7d;
+  font-weight: 600;
+  flex-grow: 1; 
+}
+
+.checkIcon {
+  color: var(--si-light-green);
+  font-size: 20px;
+  margin-top: 2px;
+  
+  flex-shrink: 0; 
+}
+
+.coverageList {
+  padding: 0.5rem 2rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.coverageRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.coverageRow:last-child {
+  border-bottom: none;
+}
+
+.coverageLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--si-text-gray);
+}
+
+.infoIcon {
+  color: var(--si-teal);
+}
+
+.coverageAmount {
+  font-weight: 600;
+  color: var(--si-dark-blue);
+}
+
+.formContainer {
+  background-color: var(--si-light-gray-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.formContainer label {
+  min-height: 24px; 
+  display: block; 
+}
+
+.formTitle {
+  font-weight: 600;
+  font-size: 19px;
+  color:rgb(4, 80, 118);
+  margin-bottom: 1.5rem;
+}
+
+.customInput {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+}
+
+.customInputPrefix {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0.5rem !important; 
+}
+
+.customInput:focus {
+  border-bottom-color: var(--si-teal) !important;
+}
+
+.submitButton {
+  background-color: var(--si-light-teal) !important;
+  border-color: var(--si-light-teal) !important;
+  border-radius: 50px !important;
+  padding: 0.45rem !important;
+  transition: all 0.2s ease-in-out;
+  max-width: 250px; 
+  
+  width: 100%;
+  font-size: 13px;
+}
+
+.submitButton:disabled {
+  background-color: #cccccc !important; 
+  border-color: #cccccc !important;
+  opacity: 0.65;
+  cursor: not-allowed; 
+  filter: none; 
+}
+
+
+.submitButton:hover:not(:disabled) { 
+  filter: brightness(1.1);
+}
+
+.submitButton:hover {
+  filter: brightness(1.1);
+}
+
+.errorMessage {
+  color: #d9534f; 
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  min-height: 1.2rem; 
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+}
+
+.requiredNotice {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .pricingCard {
+    max-width: 330px; 
+    transform: translate(10px, 10px);
+    margin: 0;
+  }
+
+  .rightColumnShift {
+    
+    margin-left: -5rem;
+  }
+}
+
+.contentWrapper {
+  max-width: 780px; 
+  
+  margin-right: auto; 
+  margin-left: 0;
+}
+
+.responsiveGrid {
+  display: flex;
+  flex-direction: column; 
+  gap: 2rem; 
+  align-items: center; 
+}
+
+@media (min-width: 992px) {
+  .responsiveGrid {
+    display: grid; 
+    grid-template-columns: 3fr 6fr; 
+    gap: 1rem; 
+    align-items: start; 
+  }
+  .pricingCardWrapper {
+    max-width: none;
+  }
+}
